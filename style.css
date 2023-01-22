@@ -92,7 +92,7 @@ h1 {
 .back-video {
   object-fit: cover !important;
   height: 53vh;
-  width: 100vw;
+  width: 99vw;
   margin-left: -2px;
   margin-bottom: 31px;
 }
