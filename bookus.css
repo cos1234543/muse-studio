@@ -1,0 +1,323 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; ;
+}
+body {
+    height: 110vh;
+    background: url(img3/bv.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -83px;
+    margin-right: 91px;
+}
+.contact-info {
+    color: #fff;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 9px;
+    font-size: 18px;
+    margin-top: 243px;
+    /* margin-right: 491px; */
+    margin-left: -1931px;
+}
+select {
+    height:6vh;
+    background-color: black;
+    color: #FFf;
+    width: 17vw;
+    text-align: center;
+    border-radius: 11px;
+    margin-bottom: 47px;
+    justify-content: center;
+    margin-left: 33px;
+    margin: 22px 213px 20px;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-right: 266px;
+    /* float: none; */
+}
+button{
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width:100%;
+    cursor: pointer;
+ }
+ .btn {
+    padding: 10px 69px;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 17vw;
+    cursor: pointer;
+    margin-top: -582px;
+    border-radius: 44px;
+    margin-left: 1589px;
+}
+ option{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+ }
+.contact-info i{
+    margin-right: 20px;
+    font-size: 25px;
+}
+form.contact{
+    margin:2px;
+}
+.contact-form {
+    max-width: 700px;
+    margin-right: -94px;
+    margin-left: 433px;
+    width: 50vw;
+    margin-top: -304px;
+}
+.contact-info .contact-form{
+    flex:1;
+}
+.contact-form h2{
+   color: #fff;
+   text-align: center;
+   font-size: 35px;
+   text-transform:uppercase ;
+   margin-bottom: 30px;
+}
+.logo {
+    width: 15vw;
+    height: 26vh;
+    margin-bottom: 585px;
+    margin-right: -752px;
+}
+.contact-form .text-box {
+    background: #000;
+    color: #fff;
+    border: none;
+    width: calc(50% - 10px);
+    border-radius: 4px;
+    height: 50px;
+    padding: 18px;
+    font-size: 15px;
+    border-radius: 5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0,1);
+    margin-bottom: 6px;
+    opacity: 0.9;
+    /* margin-left: 29px; */
+    /* margin: 24px; */
+}
+
+.contact-form .text-box:first-child{
+    margin-right: 15px;
+}
+.contact-form .send-btn{
+    float: left;
+    background: #000;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: background;
+}
+.contact-form .send-btn:hover{
+    background: goldenrod;
+    color: #000;
+}
+
+
+
+
+@media(max-width:950px) {
+    body {
+        height: 197vh;
+       
+    }
+    .contact-section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 190px;
+        margin-right: -644px;
+    }
+     .contact-info, .contact-form {
+        margin: 10px -59px;
+        color: #000;
+    }
+    select {
+        height: 6vh;
+        background-color: black;
+        color: #FFf;
+        width: 41vw;
+        text-align: center;
+        border-radius: 11px;
+        margin-bottom: 47px;
+        justify-content: center;
+        margin-left: 33px;
+        margin: 22px 146px 20px;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        margin-right: 266px;
+        /* float: none; */
+    }
+    .contact-form .send-btn {
+        float: left;
+        background: #000;
+        color: #fff;
+        border: none;
+        width: 135px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+        transition-property: background;
+    }
+.contact-form h2{
+    font-size: 30px;
+}
+.logo {
+    width: 43vw;
+    height: 32vh;
+    margin-bottom: 1535px;
+    margin-right: -246px;
+}
+.btn {
+    padding: 14px 82px;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 17vw;
+    cursor: pointer;
+    margin-top: -1653px;
+    border-radius: 44px;
+    margin-left: 993px;
+    margin-right: -924px;
+    text-align: center;
+}
+
+.contact-form .text-box{
+    width: 100%;
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px){
+    body {
+        height: 385vh;
+    }
+    select {
+        height: 6vh;
+        background-color: black;
+        color: #FFf;
+        width: 71vw;
+        height: 60px;
+        text-align: center;
+        border-radius: 11px;
+        margin-bottom: 47px;
+        justify-content: center;
+        margin-left: 33px;
+        margin: 22px 146px 20px;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        margin-right: 266px;
+        /* float: none; */
+    }
+    .logo {
+        width: 72vw;
+        height: 32vh;
+        margin-bottom: 2343px;
+        margin-right: -246px;
+    }
+
+
+    .contact-form .text-box {
+        width: 128vw;
+        height: 7vh;
+    }
+    .btn {
+        padding: 14px 82px;
+        color: #fff;
+        outline: none;
+        background: transparent;
+        border: 1px solid #fff;
+        width: 17vw;
+        cursor: pointer;
+        margin-top: -2416px;
+        border-radius: 44px;
+        margin-left: 993px;
+        margin-right: -924px;
+        text-align: center;
+    }
+
+
+    .contact-section {
+        width: -141vw;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        margin-top: -655px;
+        margin-right: -242px;
+        padding: 89px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+

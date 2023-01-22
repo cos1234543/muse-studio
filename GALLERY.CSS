@@ -1,0 +1,370 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'poppin',sans-serif;
+}
+body{
+width:100vw;
+background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+html,body{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+position: relative;
+}
+.btn {
+color: rgb(255, 215, 0);
+text-decoration: none;
+border: 1px solid rgb(255, 255, 255);
+padding: 12px 79px;
+border-radius: 89px;
+float: right;
+transition: all 0.2s ease 0s;
+margin: -11px -15px;
+}
+
+.btn:hover{
+  background: #FFD700;
+  color :#000;
+}
+.dbtn {
+  color: #FFD700;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 12px 79px;
+  border-radius: 89px;
+  margin-right: -291px;
+  float: right;
+  margin-bottom: 897px;
+  margin-left: 910px;
+  transition: 0.2S;
+  margin: -24px -8px;
+}
+ .dbtn:hover{
+    background: #FFD700;
+    color :#000;
+  }
+  .land {
+    font-size: 100px;
+    font-family: 'harding';
+    color: gold;
+    margin-left: 53px;
+    font-size: 30pt;
+    font-weight: lighter;
+    margin-top: 120px;
+    text-align: center;
+}
+.hero{
+   width: 100%; 
+  overflow: hidden;
+   display: block; 
+
+   
+   margin-left: -2px;
+   background:#fff;
+}
+nav {
+width: 105vw;
+position: absolute;
+top: 0;
+left: 0;
+padding: 0px 8%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.logo {
+  width: 168px;
+  height: 27vh;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+  color: #f3e5ab;
+  cursor: pointer;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+h1 {
+font-size: 100px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+color: rgb(197, 180, 21);
+text-align: center;
+font-size: 40pt;
+font-weight: bold;
+margin-top: 88px;
+}
+h2 {
+  font-size: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 30pt;
+  font-weight: lighter;
+  margin-top: 148px;
+background-image: url(img3/silk.jpg);
+  
+}
+nav li a:hover,
+nav li a.active{ 
+  color: #fff;
+}
+.nunu {
+background: url(img3/blur.jpg);
+height: 37vw;
+margin-bottom: 7px;
+margin: -122px;
+}
+.mot {
+background: url(img3/birth6.jpg);
+height: 31vw;
+margin-bottom: 7px;
+margin: -122px;
+}
+.gallery {
+  align-content: center;
+  margin: 27px 76px;
+}
+.gallery img {
+  width: 230px;
+  padding: 9px;
+  filter: grayscale(80%);
+  transition: 1s;
+  margin: 28px;
+
+  }  
+  .gallery img:hover{
+  filter:grayscale(0);
+  transform: scale(1.2);
+}
+.wed {
+  align-content: center;
+  margin: 32px 204px;
+}
+.wed img {
+  width: 230px;
+  padding: 9px;
+  filter: grayscale(80%);
+  transition: 1s;
+  margin: 28px;
+}
+.wed img:hover{
+  filter:grayscale(0);
+  transform: scale(1.2);
+}
+.content {
+  text-decoration: none;
+  display: inline-block;
+  color: gold;
+  font-size: 24px;
+  /* border: 7px solid gold; */
+  /* padding: 14px 70px; */
+  border-radius: 50px;
+  margin-top: 168px;
+  margin-left: 171px;
+}
+.back-video {
+object-fit: cover !important;
+height: 53vh;
+width: 99vw;
+margin-left: -2px;
+margin-bottom: 31px;
+}
+#img-gal{
+  height: 26vh;
+  
+padding: -2px;
+}
+.deez {
+  display: flex;
+ align-items: center;
+  justify-content: space-between;
+  gap: 226px;
+  width: 396px;
+}
+.nuts {
+  display: flex;
+ align-items: center;
+  justify-content: space-between;
+  gap:226px;
+  width: 396px;
+}
+
+@media(max-width:1180px){
+  .logo {
+    width: 168px;
+    height: 14vh;
+}
+.gallery {
+  align-content: center;
+  margin: 27px 121px;
+  gap: 5px;
+  /* display: inline-flex; */
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 600px){
+ 
+  .gallery {
+    align-items: center;
+    margin: 56px -5px;
+    justify-content: space-between;
+    display: inline-table;
+    align-content: space-around;
+    justify-items: center;
+    margin-left: 26px;
+}
+
+.gallery img {
+  width: 120px;
+  padding: 3px;
+  filter: grayscale(80%);
+  transition: 1s;
+  margin: 26px;
+}
+
+.navbar ul {
+ flex-direction: initial;
+
+}
+
+.navbar-toggle{
+ display: block;
+}
+.navbar-links {
+ display: none;
+ width:100vw;
+ text-align: center;
+}
+.active {
+ display:block;
+ text-align: center;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: -6px;
+  color: #f3e5ab;
+  cursor: pointer;
+  margin: -6px -5px;
+}
+
+.navlinks {
+  list-style: none;
+  /* background-color: black; */
+  border-radius: 16px;
+  margin-right: -206px;
+  margin-top: -33px;
+  margin-left: -8px;
+  width: 102vw;
+  margin: 2px;
+  display: flex;
+}
+
+.navlinks li a {
+  transition: all 0.3s ease 0s;
+  font-family: 'Segoe UI', sans-serif;
+  /* background-color: black; */
+  color: #000;
+  margin-right: 41px;
+  margin-bottom: 18px;
+}
+#navbar.active{
+  right:0px;
+}
+.navlinks li a {
+transition: all 0.3s ease 0s;
+font-family: 'Segoe UI',  sans-serif;
+/* background-color: black; */
+color: #000;
+margin-right: 35px;
+margin-bottom: 18px;
+}
+.navlinks {
+list-style: none;
+/* background-color: black; */
+border-radius: 16px;
+margin-right: -206px;
+margin-top: -33px;
+margin-left: -8px;
+width: 102vw;
+}
+#navbar li{
+ margin-bottom: 25px;
+}
+#mobile{
+  display: flex;
+  align-items: center;
+  
+}
+#mobile i{
+  color:#FFD700;
+  font-size: 24px;
+  padding-left: 20px;
+
+}
+#close{
+  display: initial;
+  position: absolute;
+  top:30px;
+  left:30px;
+  color: #FFD700;
+  font-size:24px;
+}
+h2 {
+  font-size: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 20pt;
+  font-weight: lighter;
+  margin-top: 166px;
+}
+h1 {
+font-size: 100px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(3, 3, 0);
+text-align: center;
+font-size: 20pt;
+font-weight: bold;
+margin-top: 37px;
+}
+.logo {
+  width: 174px;
+  height: 21vh;
+  margin-left: -45px;
+}
+.back-video {
+object-fit: cover !important;
+height: 19vh;
+width: 100vw;
+margin-left: -2px;
+margin-bottom: 30px;
+margin-top: 24px;
+}
+}
