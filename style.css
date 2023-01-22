@@ -291,7 +291,7 @@ h2 {
   border-radius: 89px;
   float: right;
   transition: all 0.2s ease 0s;
-  margin: -120px -138px;
+  margin: -10px -138px;
   width: 70vw;
 }
 #navbar.active{
@@ -356,7 +356,7 @@ h1 {
 }
 .back-video {
   object-fit: cover !important;
-  height: 19vh;
+  height: 27vh;
   width: 100vw;
   margin-left: -2px;
   margin-bottom: 30px;
